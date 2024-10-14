@@ -3,6 +3,5 @@ setuptools
 opencv-python
 mediapipe==0.10.1
 numpy
-Flask>=2.0
-Werkzeug>=2.1
+Werkzeug==3.0.4
 
