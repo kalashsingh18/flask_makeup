@@ -24,12 +24,17 @@
             border-radius: 10px;
             overflow: hidden;
         }
+        img {
+            display: block;
+            width: 640px;
+            height: 480px;
+        }
     </style>
 </head>
 <body>
     <h1>Real-time Virtual Makeup Application</h1>
     <div id="video-container">
-        <img src="{{ url_for('video_feed') }}" width="640" height="480">
+        <img id="camera-feed" src="{{ url_for('video_feed') }}" alt="Camera feed not available">
     </div>
 </body>
 </html>
